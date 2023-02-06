@@ -13,4 +13,8 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-
+<form method="post">
+    <label>:عددی برای مشخص کردن ابعاد مثلث وارد کنید</label><br>
+    <input type="number" name="n1"/><br>
+    <input type="submit" name="submit" value="run"/>
+</form>
